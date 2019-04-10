@@ -1,9 +1,7 @@
 #include <stdio.h>
 int main()
 {
-int c, n, fact = 1;
-printf("Enter the number: ");
- scanf("%d", &n);
+int c, n = 5, fact = 1;
  for(c = 1; c <= n; c++)
   fact = fact * c;
   printf("Factorial of %d = %d\n", n, fact);
