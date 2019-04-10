@@ -6,5 +6,5 @@ include:
  - clang
  - gcc
  script:
- - gcc -o factorial.c 
- - ./factorial
+ - gcc -o test factorial.c 
+ - ./test
